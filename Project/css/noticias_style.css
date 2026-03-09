@@ -1,0 +1,84 @@
+body {
+    background: white
+}
+
+.header {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    overflow: auto;
+}
+
+.header h4 {
+    float: inline-start;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: left;
+    size: auto;
+}
+
+.logo {
+    float: inline-start;
+    height: 50px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+
+.navbar {
+    background-color: #00c7fc;
+    border-radius: 37px;
+    font-family: "Roboto Slab", serif;
+    font-size: 38px;
+    font-weight: 700;
+    overflow: auto;
+    box-shadow: 0px 0px 15px #1ca3ec;
+    margin: 0px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+
+.navbar a {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    align-content: center;
+    size: auto;
+    width: 20%;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.navbar a.active {
+    background-color: #dacaed;
+    color: black;
+}
+
+
+.noticiasMain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.noticiasHero {
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-content: stretch;
+    margin: 20px;
+    border-radius: 37px;
+    box-shadow: 0px 0px 15px #1ca3ec;
+    padding: 20px;
+}
