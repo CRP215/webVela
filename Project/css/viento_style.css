@@ -142,14 +142,16 @@ body {
 
 
 
-.noticiasMain {
+
+.mainContent {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.noticiasHero {
+.boatDisplay {
     width: 100%;
+    height: 500px;
     display: flex;
     vertical-align: middle;
     justify-content: center;
@@ -161,4 +163,55 @@ body {
 }
 
 
+.imageSection {
+    width: 30%;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.boatImage{
+    opacity: 1;
+    max-height: 100%;
+    height: auto;
+    width: 100%;
+}
+
+
+.contentData {
+    width: 80%;
+    padding: 16px;
+    overflow-y: scroll;
+    text-align: justify;
+    scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contentArticle {
+    scroll-snap-align: center;
+
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+
+    scroll-snap-align: start;
+
+    scroll-snap-stop: always;
+}
+
+.contentDataTitle {
+    color: #1ca3ec;
+}
+
+.contentDataText {
+    color: #000;
+}
+
+.sea{
+    background-color: aqua;
+    width: 100%;
+    height: 500px;
+}
